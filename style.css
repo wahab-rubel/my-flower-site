@@ -88,3 +88,18 @@ p{
 .column img{
   width: 200px;
 }
+
+.btn{
+  text-align: center;
+}
+.btn button{
+  background-color: blue;
+  padding: 10px;
+  marging: 10px;
+  border: 1px solid red;
+  border-radius: 5px;
+  color: white;
+}
+.btn button:hover{
+  
+}
