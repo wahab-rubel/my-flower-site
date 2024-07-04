@@ -1,0 +1,90 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.navbar img {
+  padding: 1px;
+  margin: 2px;
+  display: inline-block;
+
+}
+.navbar{
+  display: flex;
+  background-color: white !important;
+  align-items: center;
+}
+.navbar ul{
+list-style: none;
+}
+.navbar ul li{
+  padding: 20px;
+
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+.navbar ul li a:hover{
+  color: blue;
+}
+.main-header1{
+background-color: rgb(240, 0, 48);
+padding: 5px;
+}
+
+.main-header1 ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+.main-header2{
+  display: flex;
+  
+}
+.main-header2 ul{
+list-style: none;
+margin: 3px;
+}
+.main-header2 ul li a{
+
+}
+#carousel{
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+}
+#slide-container{
+  display: flex;
+  justif-containt: center;
+}
+#slide-container{
+  hight: 44px;
+  width: 50px;
+  display: flex;
+  justif-items: center;
+  cursort: pointer;
+}
+h1{
+  text-align: center;
+  padding: 20px;
+  color: rgb(145, 50, 224 );
+  text-weight: bold;
+  font-size: 25px;
+}
+p{
+  text-align: center;
+  text-width: bold !important;
+  font-size: 20px;
+}
+.column{
+  float: left;
+  padding:1px;
+  hight: 10px;
+
+}
+.column img{
+  width: 200px;
+}
