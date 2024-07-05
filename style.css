@@ -88,6 +88,17 @@ p{
 .column img{
   width: 200px;
 }
+button{
+  color: white !important;
+  background-color: tomato;
+  border: 2px solid balck !important;
+  border-radius: 15px;
+  margin-left: 55px;
+}
+button:hover{
+  background-color: blue !important;
+  color: red !important;
+}
 
 .btn{
   text-align: center;
@@ -101,5 +112,17 @@ p{
   color: white;
 }
 .btn button:hover{
-  
+  color: orange;
+}
+footer{
+  background-color: #8A2BE2;
+}
+footer h1{
+  color: white !important;
+  text-align: center;
+ 
+}
+footer form{
+  padding: 10px;
+ 
 }

@@ -12,7 +12,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/v4-font-face.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg">
+  <link rel="stylesheet" href="./form/form.css">
   <link rel="stylesheet" href="./style.css">
+ 
   <title>Document</title>
 </head>
 <body>
@@ -67,27 +69,49 @@
     </div>
     <div class="row">
       <div class="column">
-        <img src="./images/flower1.jpg">
-          <p>Rose flower</p>
+        <img src="">
+         <div>
+          <button>Order Flower</button>
+          <p>price: $30</p>
+         </div>
       </div>
       <div class="column">
         <img src="./images/fluwer2.jpg" alt="">
+        <div>
+          <button>Order Flower</button>
+          <p>price: $30</p>
+         </div>
       </div>
       <div class="column">
         <img src="./images/flower3.jpg" alt="">
+        <div>
+          <button>Order Flower</button>
+          <p>price: $30</p>
+         </div>
       </div>
       <div class="column">
         <img src="./images/flower4.jpg" alt="">
+        <div>
+          <button>Order Flower</button>
+          <p>price: $30</p>
+         </div>
       </div>
       <div class="column">
         <img src="./images/flower5.jpg" alt="">
+        <div>
+          <button>Order Flower</button>
+          <p>price: $30</p>
+         </div>
       </div> 
       </div>
     </div>
   </div>
   </div>
     <section>
-      <div><h1>BRITHDAY</h1></div>
+      <div>
+        <h1>BRITHDAY</h1>
+        <p>The carefully crafted flower arrangements are bound to make your loved one’s special day a bit more special.</p>
+      </div>
       <div class="row">
         <div class="column">
           <img src="./images/images2/flower1.jpg" alt="">
@@ -115,14 +139,64 @@
       <button>SHOP NEW BOUQUETS</button>
     </section>
 
+
+
     <footer>
       <div>
         <h1>want to subscribe to your Monthly Subscription? Let us know!</h1>
-        <form action="sub">
-          <label>Name</label>
-          <input type="text" placeholder="Name">
-        </form>
+        
+        <main>
+          <section>
+            <h1>please fill up the form</h1>
+            <form>
+              <label for=""> Your Name:
+                <input type="text" placeholder="your name">
+              </label>
+              <label for=""> Your Email:
+                <input type="email" name="" id="email" placeholder="Your email">
+              </label>
+              <label for=""> Your Phone:
+                <input type="text" placeholder="phone">
+              </label>
+      
+              <fieldset>
+                <legend>pick on pitha</legend>
+                <label for="chitoy">
+                  <input type="radio" name="vapa" id="chitoy"> chitoy
+                </label>
+                <label for="vapa">
+                  <input type="radio" name="vapa" id="vapa"> vapa
+                </label>
+                  <label for="puri">
+                    <input type="radio" name="vapa" id="puri"> puri
+                  </label>
+              </fieldset>
+              <fieldset>
+                <legend>pick one or more vorta</legend>
+                <label for="sorisha">
+                  <input type="checkbox" name="" id="sorisha"> sorisha
+                </label>
+                <label for="vorta">
+                  <input type="checkbox" name="" id="vorta"> vorta
+                </label>
+                <label for="chili">
+                  <input type="checkbox" name="" id="chili"> chili
+                </label>
+              </fieldset>
+              <fieldset>
+                <legend>Special Instruction</legend>
+                <textarea name="" id="" cols="40" rows="5">
+                </textarea>
+              </fieldset>
+              <fieldset>
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+              </fieldset>
+            </form>
+          </section>
+        </main>
       </div>
+      
     </footer>
 </body>
 </html>
